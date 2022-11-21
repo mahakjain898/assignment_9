@@ -1,0 +1,21 @@
+.Container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #edf6f9;
+    text-decoration: none;
+}
+
+link {
+    text-decoration: none;
+}
+
+.Container a {
+    margin-right: 20px;
+}
+
+a:-webkit-any-link {
+    color: #83c5be;
+    cursor: pointer;
+    text-decoration: none;
+}
